@@ -22,7 +22,7 @@ const functionalSkills = [
     skills: [
       "Développement orienté objet (POO) – architecture MVC",
       "Développement et maintenance de sites web (CMS, SaaS, applications métiers)",
-      "Intégration d'API REST et mise en place de microservices",
+      "Intégration d&apos;API REST et mise en place de microservices",
       "Développement Blockchain (Solidity, Web3.js, Truffle, smart contracts)",
       "Tests unitaires & bonnes pratiques de qualité du code"
     ]
@@ -42,9 +42,9 @@ const projects = [
     company: "Worklift",
     period: "2025",
     role: "Projet Personnel – Code Propriétaire",
-    description: "Worklift : Agence et logiciel d'automatisation Web",
+    description: "Worklift : Agence et logiciel d&apos;automatisation Web",
     domains: [
-      "Création d'un logiciel web pour exécuter des automatisations customisées via API sans besoin de connaissances techniques pour le client"
+      "Création d&apos;un logiciel web pour exécuter des automatisations customisées via API sans besoin de connaissances techniques pour le client"
     ],
     environment: [
       "ExpressJS, EJS, n8n API, MySQL, TailwindCSS",
@@ -57,9 +57,9 @@ const projects = [
     role: "Projet Personnel – Code Propriétaire",
     description: "VitaeAI : Jobboard Web3 agrégateur avec correspondance et analyse de profil par CV",
     domains: [
-      "Création d'un logiciel web d'annonces d'emplois orienté web3",
-      "Agrégation des offres d'emplois depuis divers sites",
-      "Outils d'analyse de CV par IA",
+      "Création d&apos;un logiciel web d&apos;annonces d&apos;emplois orienté web3",
+      "Agrégation des offres d&apos;emplois depuis divers sites",
+      "Outils d&apos;analyse de CV par IA",
       "Mise en correspondance des CV avec les offres"
     ],
     environment: [
@@ -74,7 +74,7 @@ const projects = [
     description: "Open Web Addict : Société de création de site Internet.",
     domains: [
       "Méthodologie : Points journaliers, Slack",
-      "Maintenance et amélioration du site « masecurite.interieur.gouv.fr » ainsi que d'un site Internet du Ministère de l'Intérieur"
+      "Maintenance et amélioration du site « masecurite.interieur.gouv.fr » ainsi que d&apos;un site Internet du Ministère de l&apos;Intérieur"
     ],
     environment: [
       "Architecture MVC, Symfony, StimulusJS, Twig, PostgreSQL",
@@ -88,9 +88,9 @@ const projects = [
     description: "Ambika : Société de création, maintenance et hébergement de site Drupal depuis 2005.",
     domains: [
       "Méthodologie : Agilité (Réunions début/fin semaine)",
-      "Création d'une solution d'uniformisation de visuels pour un site de vins avec l'utilisation de l'API Drupal",
+      "Création d&apos;une solution d&apos;uniformisation de visuels pour un site de vins avec l&apos;utilisation de l&apos;API Drupal",
       "Outillage mis en place pour : Librairie PHP (imagick), Module Drupal",
-      "Remplacement du système de génération de Sprites CSS pour tous les sites d'Ambika (package déprécié)",
+      "Remplacement du système de génération de Sprites CSS pour tous les sites d&apos;Ambika (package déprécié)",
       "Outillage mis en place pour : Packages JS (gulp / gulp.spritesmith)"
     ],
     environment: [
@@ -99,7 +99,7 @@ const projects = [
     ]
   },
   {
-    company: "Ministère de l'Intérieur",
+    company: "Ministère de l&apos;Intérieur",
     period: "Septembre 2019 – Septembre 2021",
     role: "Développeur Web Full Stack en alternance",
     description: "",
@@ -107,15 +107,15 @@ const projects = [
       "Méthodologie : Agilité (Sprint, Réunions)",
       "Montée en compétence sur PHP / Symfony",
       "Participation à la résolution de tickets sur un des sites du ministère",
-      "Création d'un portfolio à l'aide de Symfony avec différents composants :",
-      "• Requêtes API avec HttpClient sur l'API de Github (récupération de données de projets)",
-      "• Test d'une création d'API publique avec API Platform",
+      "Création d&apos;un portfolio à l&apos;aide de Symfony avec différents composants :",
+      "• Requêtes API avec HttpClient sur l&apos;API de Github (récupération de données de projets)",
+      "• Test d&apos;une création d&apos;API publique avec API Platform",
       "• Création de composants Twig réutilisables",
-      "• Envoi d'email de confirmation (symfony/mailer)",
+      "• Envoi d&apos;email de confirmation (symfony/mailer)",
       "• Intégration flux RSS",
       "• Authentification / Création de compte",
       "• Gestion de compte",
-      "Création de composants responsive à l'aide de VueJS pour les cookies sur les sites du Ministère depuis une maquette"
+      "Création de composants responsive à l&apos;aide de VueJS pour les cookies sur les sites du Ministère depuis une maquette"
     ],
     environment: [
       "Ubuntu, PHP 7.2, Symfony 4/5, MySQL"
@@ -209,10 +209,10 @@ export default function CompetencesPage() {
                     </div>
                   </div>
 
-                  {/* Domaine d'intervention */}
+                  {/* Domaine d&apos;intervention */}
                   <div className="space-y-2">
                     <h4 className="font-medium text-sm uppercase tracking-wide text-muted-foreground">
-                      Domaine d'intervention :
+                      Domaine d&apos;intervention :
                     </h4>
                     <ul className="space-y-1">
                       {project.domains.map((domain, domainIndex) => (
