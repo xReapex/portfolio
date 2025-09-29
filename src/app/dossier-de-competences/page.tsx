@@ -22,7 +22,7 @@ const functionalSkills = [
     skills: [
       "Développement orienté objet (POO) – architecture MVC",
       "Développement et maintenance de sites web (CMS, SaaS, applications métiers)",
-      "Intégration d&apos;API REST et mise en place de microservices",
+      "Intégration d'&apos;'API REST et mise en place de microservices",
       "Développement Blockchain (Solidity, Web3.js, Truffle, smart contracts)",
       "Tests unitaires & bonnes pratiques de qualité du code"
     ]
@@ -44,7 +44,7 @@ const projects = [
     role: "Projet Personnel – Code Propriétaire",
     description: "Worklift : Agence et logiciel d&apos;automatisation Web",
     domains: [
-      "Création d&apos;un logiciel web pour exécuter des automatisations customisées via API sans besoin de connaissances techniques pour le client"
+      "Création d'un logiciel web pour exécuter des automatisations customisées via API sans besoin de connaissances techniques pour le client"
     ],
     environment: [
       "ExpressJS, EJS, n8n API, MySQL, TailwindCSS",
@@ -57,7 +57,7 @@ const projects = [
     role: "Projet Personnel – Code Propriétaire",
     description: "VitaeAI : Jobboard Web3 agrégateur avec correspondance et analyse de profil par CV",
     domains: [
-      "Création d&apos;un logiciel web d&apos;annonces d&apos;emplois orienté web3",
+      "Création d'un logiciel web d&apos;annonces d&apos;emplois orienté web3",
       "Agrégation des offres d&apos;emplois depuis divers sites",
       "Outils d&apos;analyse de CV par IA",
       "Mise en correspondance des CV avec les offres"
