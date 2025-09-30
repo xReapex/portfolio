@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Thomas ROBERT",
   initials: "TR",
-  url: "https://dillion.io",
+  url: "https://robtho.fr",
   location: "Paris, FR",
   locationLink: "https://www.google.com/maps/place/paris",
   description:
@@ -36,24 +36,11 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: false,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: false,
-      },
       Email: {
         name: "Send Email",
         url: "mailto:thomas1.robert1@gmail.com",
         icon: Icons.email,
-
+        
         navbar: true,
       },
     },
